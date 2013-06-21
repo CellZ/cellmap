@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/*helpdesk common*/
+.sphd{display:inline-block;overflow:hidden;width:auto;height:18px;background:url(../images/sp_helpdesk.png) no-repeat;line-height:999px;vertical-align:top}
+.tx{display:inline-block;vertical-align:top}
+.help_wrap{padding-top:30px}
+.help_wrap .snb_group{width:120px;padding-top:0}
+.help_wrap .snb_group .snb_area{border-bottom:1px solid #ebebeb}
+.help_wrap .section_timeline{width:650px}
+.helpdesk{margin:0 auto}
+.helpdesk_notice{position:relative;margin-bottom:20px;padding:0 75px;height:29px;border:1px solid #cccccc;line-height:17px}
+.helpdesk_notice h2{display:inline-block;position:absolute;left:0;top:0;width:74px;height:29px;border-right:1px solid #e5e5e5;background:url(../images/sp_helpdesk.png) repeat-x 0 -98px;text-indent:-9999px}
+.notice_lst{overflow:hidden;height:29px;padding-left:10px}
+.notice_lst li{padding:6px 0}
+.notice_lst a{font-size:11px;font-weight:bold;color:#666666;line-height:15px}
+.notice_new_ic{display:inline-block;width:12px;height:12px;margin:-1px 0 0 5px;background:url(../images/sp_helpdesk.png) no-repeat;line-height:0;font-size:0;vertical-align:middle}
+.notice_total{position:absolute;right:0;top:0;padding:6px 0;font-size:11px;color:#a0a0a0;font-family:"돋움",Dotum}
+.notice_total_ic{display:inline-block;width:3px;height:5px;margin:5px 10px -5px 5px;background:url(../images/sp_helpdesk.png) no-repeat -15px 0;vertical-align:top}
+
+.h2_tit{}
+.h2_tit .tit_hd{width:57px;height:33px;background-position:-80px 0}
+.snb_hd{margin-top:20px}
+.snb_hd li{margin-top:4px}
+.snb_hd li:first-child{margin-top:0}
+.snb_hd li .box{display:block;position:relative;width:84px;height:37px;margin-bottom:-1px;padding:10px 0 1px 36px;background-position:0 -226px;font-size:11px;line-height:13px;color:#666}
+.snb_hd li .box .sphd{position:absolute;left:10px;top:50%;width:19px;height:19px;margin-top:-10px}
+.snb_hd li .side1{background-position:-121px -204px}
+.snb_hd li .side2{background-position:-121px -224px}
+.snb_hd li .side3{background-position:-121px -244px}
+.snb_hd li.on .box{background-position:0 -276px;color:#00a3ee}
+.snb_hd li.on .side1{background-position:-121px -264px}
+.snb_hd li.on .side2{background-position:-121px -284px}
+.snb_hd li.on .side3{background-position:-121px -304px}
+
+.qna_tborder{position:relative;margin-top:0px;border-top:3px solid #434343}
+.qna_tborder .timeline_box{margin:0;padding:0;border-top:0 none}
+.qna_tborder .timeline_lst{margin-top:-1px}
+.qna_iput{padding:19px 59px 0 59px;;height:51px;border-bottom:1px dashed #dcdcdc;background:#fff}
+.qna_input_area{position:relative;display:block;padding:7px 30px 7px 10px;height:16px;margin:0 auto;border:1px solid #ccc;background:#fff;line-height:16px}
+.input_txt{width:100%;height:16px;*margin:-1px 0;border:0 none;background:#fff;font-size:12px;color:#a0a0a0;line-height:16px;vertical-align:top}
+.input_txt.focus{color:#000}
+.btn_search{position:absolute;right:0;top:0;width:30px;height:30px;background:url(../images/sp_helpdesk.png) no-repeat 0 -15px;text-indent:-9999px;cursor:pointer}
+
+.helpdesk_lst{position:relative;margin:0}
+.helpdesk_lst_ul li{border-top:1px solid #f0f0f0}
+.helpdesk_lst_ul .li_left{display:inline-block;position:absolute;left:20px;top:0;width:4px;height:4px;margin:23px 0 0 0px;background:url(../images/sp_helpdesk.png) no-repeat -21px 0;vertical-align:middle}
+.helpdesk_lst_ul .li_middle .time{display:inline-block;font-size:11px;font-weight:normal;color:#a0a0a0;margin-left:10px;vertical-align:top}
+.helpdesk_lst_ul .li_right_tri{display:inline-block;position:absolute;right:20px;top:50%;width:7px;height:4px;margin-top:-2px;background:url(../images/sp_helpdesk.png) no-repeat -41px 0}
+.helpdesk_lst_ul .li_right{display:inline-block;position:absolute;right:20px;top:50%;width:6px;height:11px;margin-top:-6px;background:url(../images/sp_helpdesk.png) no-repeat -32px 0;visibility:hidden}
+.helpdesk_lst_ul .searched{color:#00a3ee;font-weight:bold}
+.helpdesk_lst_ul a{position:relative;display:block;padding:17px 36px 19px 30px;font-size:12px;font-weight:bold;color:#434343;line-height:17px;zoom:1}
+.helpdesk_lst_ul a:hover{background:#fafafa}
+.helpdesk_lst_ul a:hover .li_right{visibility:visible}
+.helpdesk_lst_ul li:first-child{border-top:0 none}
+.helpdesk_lst_ul li.on{background:#fafafa}
+.helpdesk_lst_ul li.on .notice_on{display:block}
+.helpdesk_lst_ul li.on .li_right_tri{background-position:-41px -7px}
+.helpdesk_lst_ul .notice_on{display:none;position:relative;margin-top:-7px;padding:0 30px 20px 30px;color:#666666}
+.helpdesk_lst_ul .notice_on h2{font-size:12px;color:#434343}
+
+.qna_tborder .txtout{position:relative;height:53px;border-bottom:1px solid #e6e6e6;text-indent:-9999px}
+.qna_tborder .txtout .notice_title{display:inline-block;position:absolute;left:0px;top:0;width:46px;height:13px;margin:18px 0 18px 20px;background:url(../images/sp_helpdesk.png) no-repeat 0 -130px;line-height:17px}
+
+.info_lst{padding:0 20px 80px 20px;line-height:20px}
+.info_box{position:relative;margin:45px 0 0 0}
+.info_box .info_tit{position:relative;padding:4px 10px 0 29px;margin:0 42px 25px 0;height:21px;font-size:14px;color:#434343;line-height:17px;z-index:100}
+.qna_ic{position:absolute;left:0;top:3px;width:19px;height:19px;background:url(../images/sp_helpdesk.png) no-repeat 0 -48px;overflow:hidden}
+.qna_title{display:block}
+.qna_info dt{font-size:12px;color:#434343;font-weight:bold}
+.qna_info dd{margin-bottom:30px;font-size:12px;color:#666666;text-align:justify}
+.qna_like{line-height:11px}
+.qna_like dt{display:inline;position:relative;}
+.qna_like dt, .qna_like dd{font-family:Tahoma;font-size:11px;color:#a0a0a0}
+.qna_like dd{font-weight:bold;color:#434343}
+.like_box{position:absolute;left:0;top:20px;padding:0 7px;border:1px solid #a0a0a0;line-height:16px;z-index:20;white-space:nowrap;visibility:hidden}
+.qna_like dt:hover .like_box{visibility:visible}
+.like_arr{position:absolute;left:6px;top:-5px;width:8px;height:5px;background:url(../images/sp_helpdesk.png) no-repeat -20px -8px}
+.like_score{display:inline}
+.like_dot{display:inline-block;margin:0 5px 0 3px;width:2px;height:2px;background:url(../images/sp_helpdesk.png) no-repeat -15px -8px;vertical-align:3px}
+.qna_lst_btn{position:absolute;right:0;top:0px;padding-top:4px;width:42px;height:21px;background:url(../images/sp_helpdesk.png) no-repeat 0 -70px;font-size:12px;color:#666666;text-align:center;line-height:17px;overflow:hidden}
+
+.help_top{overflow:hidden;position:relative;height:300px;margin-bottom:-1px;border-bottom:1px solid #e6e6e6;background:#fafafa}
+.ht_list{}
+.ht_list li{}
+.ht_list li img{vertical-align:top}
+.ht_rem{position:absolute;right:115px;bottom:9px}
+.ht_rem li{display:inline;float:left;font-size:0;line-height:0}
+.ht_rem li a{display:inline-block;padding:3px;font-size:0;line-height:0;vertical-align:top;cursor:pointer}
+.ht_rem li .sphd{width:6px;height:7px;background-position:-46px -70px}
+.ht_rem li .on .sphd{background-position:-54px -70px}
+.help_article{padding:50px 0;border-top:1px solid #e5e5e5}
+.ha_tit{position:relative;margin:0 30px;font-size:0;line-height:0}
+.ha_tit .bor{display:inline-block;overflow:hidden;position:absolute;top:-13px;left:0;width:20px;height:1px;background:#434343;vertical-align:top}
+.ha_tit .tit_cad{width:140px;height:13px;background-position:0 -148px}
+.ha_tit .tit_htc{width:94px;height:13px;background-position:0 -168px}
+.ha_p{margin:5px 30px 0;font-size:11px;color:#666}
+.ha_mobile{margin:38px 0 0 60px;zoom:1}
+.ha_mobile:after{display:block;clear:both;content:''}
+.ha_mobile li{display:inline;float:left;position:relative;width:137px;min-height:134px;padding-left:147px}
+.ha_mobile li .down_url{position:absolute;bottom:0;font-size:11px;font-family:'돋움',Dotum;color:#c2c2c2;letter-spacing:-1px}
+.ha_mobile li .down_url a{color:#666}
+.ha_mobile li .down_url .url{text-decoration:underline}
+.ha_mobile li .down_url .url_ly{display:inline-block;visibility:hidden;position:absolute;left:50%;bottom:24px;width:180px;margin-left:-98px;padding:8px;border:1px solid #ccc;background:#fff;font-family:Tahoma;line-height:14px;letter-spacing:0;word-break:break-all;text-decoration:none}
+.ha_mobile li .down_url .url_ly .arrow{position:absolute;top:100%;left:50%;width:8px;height:5px;margin-left:-4px;background-position:-52px -130px}
+.ha_mobile li .down_url a:hover .url_ly{visibility:visible}
+.qr_code{position:absolute;left:0;top:0}
+.qr_code img{vertical-align:top}
+.qr_info{}
+.qr_info .ico_android{width:61px;height:35px;background-position:0 -188px}
+.qr_info .ico_ios{width:37px;height:35px;background-position:-68px -188px}
+.qr_info .txt{display:block;margin-top:8px;font-size:11px;line-height:14px;color:#a0a0a0}
+.ha_info{width:100%;margin-top:30px;padding-top:220px;background:url(../images/img_hd_howtocellz.jpg) no-repeat 0 0}
+.ha_info:after{display:block;clear:both;content:''}
+.ha_info li{display:inline;float:left;width:173px;margin-left:30px;font-size:11px;line-height:16px;color:#666}
+.ha_info li .num{display:block;color:#00a3ee}

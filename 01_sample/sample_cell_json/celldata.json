@@ -1,0 +1,53 @@
+"cells": [
+            {
+                "key": "147_2",
+                "cellId": 2,
+                "userId": 147,
+                "groupId": 0,
+                "companyId": 5,
+                "contents": "people post contents",
+                "createdTimestamp": 1371626236931,
+                "cellType": "CELL",
+                "ancestorUserId": 0,
+                "ancestorCellId": 0,
+                "parentUserId": 0,
+                "parentCellId": 0,
+                "attachments": [
+                    "147_5c7cd05587fe8f298e06df5c39fbb3c4"
+                ],
+                "attachmentsMeta": [
+                    {
+                        "fileName": "147_5c7cd05587fe8f298e06df5c39fbb3c4",
+                        "fileTitle": "check list April 2013",
+                        "fileOrigin": "check_list.xls"
+                    }
+                ],
+                "cellUser": {
+                    "userId": 147,
+                    "name": "Jason Ku",
+                    "profileImage": "147_466d4557e6984c42e37987f314182585"
+                },
+                "published": false,
+                "deleted": false,
+                "auth": true,
+                "mine": false,
+                "parentHid": "cell",
+                "hiddenParent": [],
+                "childCells": [
+                    {
+                        "childId": "cell_1",
+                        "reflectionAngle": 0
+                    },
+                    {
+                        "childId": "cell_2",
+                        "reflectionAngle": 0
+                    },
+                    {
+                        "childId": "cell_3",
+                        "reflectionAngle": 0
+                    }
+                ],
+                "ranking": 0,
+                "hid": "cell"
+            }
+]
